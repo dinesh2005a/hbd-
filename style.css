@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fce4ec;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-video {
+  display: inline-block;
+  height: 350px;
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.six {
+  position: relative;
+  top: 10vh;
+  z-index: 1;
+}
+
+.six .hat {
+  left: 41.5%;
+  position: absolute;
+  top: -35%;
+  width: 80px;
+}
